@@ -1,6 +1,6 @@
 //Forked from: http://devpost.com/software/the-rainbow-matrix
 function matrix()
-{
+{ document.body.scrollTop = document.documentElement.scrollTop = 0;
   var d=document,a=255/2,el=d.createElement('canvas');
   el.setAttribute("id", "matrixcanvas");
   el.width=$(window).width();el.height=$(window).height();
